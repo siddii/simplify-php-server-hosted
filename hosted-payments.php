@@ -14,7 +14,8 @@
 <body>
 <div class="container">
     <h3>Hosted Payments Sample Page</h3>
-	<h5>Following is a paynow button, click on it to see the hosted payments modal form</h5>
+	<hr/>
+	<h5>Following is a sample paynow button, click on it to see the hosted payments modal form in action...</h5>
 	<script type="text/javascript"
 			src="https://www.simplify.com/commerce/simplify.pay.js"></script>
 	<button data-sc-key="<?echo $publicKey?>"
