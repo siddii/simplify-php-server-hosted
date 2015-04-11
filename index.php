@@ -35,11 +35,10 @@
  </head>
 
  <body>
- <?php echo 'Server is up' ?>
-
+ <?php echo "Server is up and running successfully..." ?>
  <br/>
  <h3>
-	 You can start running test payments from this <a href="paymentForm.php">payment form</a> page ...
+	 You can start running test payments using your API Key from this <a href="payment-form.php">payment form</a> page ...
  </h3>
 
  <h3>
