@@ -31,17 +31,20 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
-
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
  </head>
 
  <body>
- <?php echo "Server is up and running successfully..." ?>
- <br/>
- <h3>
-	 You can start running test payments using your API Key from this <a href="payment-form.php">payment form</a> page ...
+ <h1 class="text-center"><?php echo "Server is up and running successfully!" ?></h1>
+ <h3 class="text-center">
+	 You can start running test payments using your API Key from this <a href="payment-form.php">payment form</a> page.
  </h3>
 
- <h3>
+ <h3 class="text-center">
+	 For testing Hosted Payment's here is a <a href="hosted-payments.php">sample page</a> page.
+ </h3>
+
+ <h3 class="text-center">
 	 For running payments from your mobile applications, you can POST <i>simplifyToken</i> & <i>amount</i> to charge.php...
  </h3>
 
