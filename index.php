@@ -41,7 +41,7 @@
  </h3>
 
  <h3 class="text-center">
-	 For testing Hosted Payment's here is a <a href="hosted-payments.php">sample page</a>.
+	 For testing Hosted Payments here is a <a href="hosted-payments.php">sample page</a>.
  </h3>
  <br/><br/>
 
