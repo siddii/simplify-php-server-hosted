@@ -41,8 +41,9 @@
  </h3>
 
  <h3 class="text-center">
-	 For testing Hosted Payment's here is a <a href="hosted-payments.php">sample page</a> page.
+	 For testing Hosted Payment's here is a <a href="hosted-payments.php">sample page</a>.
  </h3>
+ <br/><br/>
 
  <h3 class="text-center">
 	 For running payments from your mobile applications, you can POST <i>simplifyToken</i> & <i>amount</i> to charge.php...
