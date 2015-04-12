@@ -36,10 +36,7 @@
 
  <body>
  <h1 class="text-center"><?php echo "Server is up and running successfully!" ?></h1>
- <h3 class="text-center">
-	 You can start running test payments using your API Key from this <a href="payment-form.php">payment form</a> page.
- </h3>
-
+ 
  <h3 class="text-center">
 	 For testing Hosted Payments here is a <a href="hosted-payments.php">sample page</a>.
  </h3>
