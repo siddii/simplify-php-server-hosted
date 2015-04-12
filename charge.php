@@ -1,14 +1,7 @@
 <?php
-	if ($_SERVER['REQUEST_METHOD'] != "POST") {
-		echo "Please send POST params 'simplifyToken' & 'amount' to this page";
-		return;
-	}
-?>
-
-<?php
 
 /*
- * Copyright (c) 2013, MasterCard International Incorporated
+ * Copyright (c) 2015, MasterCard International Incorporated
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, are
@@ -33,12 +26,16 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
+?>
 
-/*    Instructions:
-  *    1. Replace public key and private key with your respective API keys
-  *    2. This sample code charges $10 to the card token submitted. You can pass the charge parameter by uncommenting
-  *       the charge parameter
-  */
+<?php
+	if ($_SERVER['REQUEST_METHOD'] != "POST") {
+		echo "Please send POST params 'simplifyToken' & 'amount' to this page";
+		return;
+	}
+?>
+
+<?php
 header('Content-Type: application/json');
 error_reporting(E_ALL);
 

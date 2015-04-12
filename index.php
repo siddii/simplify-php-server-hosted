@@ -1,6 +1,6 @@
- <?php
+<?php
 /*
- * Copyright (c) 2013, MasterCard International Incorporated
+ * Copyright (c) 2015, MasterCard International Incorporated
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, are
@@ -25,10 +25,9 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
+?>
 
- ?>
-
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html lang="en">
  <head>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
