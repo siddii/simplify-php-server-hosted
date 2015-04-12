@@ -1,4 +1,11 @@
 <?php
+	if ($_SERVER['REQUEST_METHOD'] != "POST") {
+		echo "Please send POST params simplifyToken & amount to this page";
+		return;
+	}
+?>
+
+<?php
 
 /*
  * Copyright (c) 2013, MasterCard International Incorporated
