@@ -11,8 +11,9 @@ This is an companion application to help developers start building mobile applic
 
 ##References
 * https://www.simplify.com/commerce/docs
-* https://www.simplify.com/commerce/docs/tutorial/index#payments-form
 * https://www.simplify.com/commerce/docs/tutorial/index#testing
+* https://www.simplify.com/commerce/docs/tools/hosted-payments
+* https://www.simplify.com/commerce/docs/tutorial/index#payments-form
 
 
 
