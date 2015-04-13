@@ -27,30 +27,30 @@
  */
 ?>
 <?
-	if(!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
-		$redirect = "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-		header("HTTP/1.1 301 Moved Permanently");
-		header("Location: $redirect");
-	}
+if(!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
+	$redirect = "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+	header("HTTP/1.1 301 Moved Permanently");
+	header("Location: $redirect");
+}
 ?>
 <!DOCTYPE html>
- <html lang="en">
- <head>
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
- </head>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
 
- <body>
- <h1 class="text-center"><?php echo "Server is up and running!" ?></h1>
+<body>
+<h1 class="text-center"><?php echo "Server is up and running!" ?></h1>
 
- <h2 class="text-center">
-	 For testing Hosted Payments here is a <a href="hosted-payments.php">sample page</a>.
- </h2>
- <br/>
+<h2 class="text-center">
+	For testing Hosted Payments here is a <a href="hosted-payments.php">sample page</a>.
+</h2>
+<br/>
 
- <h2 class="text-center">
-	 For running payments from your mobile applications, you can POST <i>simplifyToken</i> & <i>amount</i> to charge.php...
- </h2>
+<h2 class="text-center">
+	For running payments from your mobile applications, you can POST <i>simplifyToken</i> & <i>amount</i> to charge.php...
+</h2>
 
- </body>
+</body>
 
- </html>
+</html>

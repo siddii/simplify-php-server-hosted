@@ -29,10 +29,10 @@
 ?>
 
 <?php
-	if ($_SERVER['REQUEST_METHOD'] != "POST") {
-		echo "Please send POST params 'simplifyToken' & 'amount' to this page";
-		return;
-	}
+if ($_SERVER['REQUEST_METHOD'] != "POST") {
+	echo "Please send POST params 'simplifyToken' & 'amount' to this page";
+	return;
+}
 ?>
 
 <?php
